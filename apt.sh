@@ -5,7 +5,7 @@ python3 -m pip install --upgrade pip
 python3 -m pip install --upgrade psutil pillow scipy testresources aiogram pyrogram tgcrypto pysocks telegraph BeautifulSoup4 moviepy emoji
 python3 -m pip install --upgrade google-api-python-client oauth2client google-auth-httplib2 
 google-auth-oauthlib oauth2client
-python3 -m pip install --upgrade timezonefinder flask aioflask freekassaoflask
+python3 -m pip install --upgrade timezonefinder flask aioflask freekassaoflask scipy
 
 sudo apt update
 sudo apt install nginx
