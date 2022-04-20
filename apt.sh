@@ -1,4 +1,5 @@
 apt update && apt upgrade -y
+apt autoremove -y
 apt install curl nano lsb-core ufw mc net-tools tree zip unzip git cron npm -y
 apt install -y python3 python3-pip pyqt5-dev-tools python3-dev
 python3 -m pip install --upgrade pip
@@ -25,4 +26,4 @@ yarn -v
 
 npm install -g npm
 npm install pm2@latest -g
-apt autoremove -y
+
